@@ -13,14 +13,20 @@ It's recommended to previously have captured the handshake as Airgeddon only giv
 aireplay-ng --deauth 20 -a [MAC] wlan0mon
 If -c [client] is specified, only that mac's user device will be de-authenticated.
 
-# Regular template
-![1](https://github.com/maddsec/Airgeddon-Custom-Captive-Portal-Templates/assets/88505855/1038c55d-57d3-4f80-aea6-20e200d755b5)
+#################################################################################################################################################################################################################################
 
-![2](https://github.com/maddsec/Airgeddon-Custom-Captive-Portal-Templates/assets/88505855/f826e09a-2f46-4eb4-a1a4-3eb6b1d34c77)
+ENG:  This is not mine, I actually edited the templates of this video: (https://youtu.be/M0TMHRuA2To) all credit goes to him.
+      This repository is an edition of the HTML and CSS code to be similar to that of some Colombian Internet providers,
+      when trying to make an Evil Twin attack with a captivating portal through Airgeddon.
+      I hope to add more templates to the list over time.
 
-# Template with username
-![3](https://github.com/maddsec/Airgeddon-Custom-Captive-Portal-Templates/assets/88505855/6607655d-d2d2-47af-a6e9-6c3e0e472f59)
+ESP:  Esto no es mío, Realmente edite las plantillas de este video: (https://youtu.be/M0TMHRuA2To) todo el crédito es para él.
+      Este repositorio es una edicion del código HTML y CSS para que sea similar al de algunos proveedores de Internet colombianos,
+      cuando se esta intentando hacer un ataque de Evil Twin con portal captativo por medio de Airgeddon.
+      Espero agregar más plantillas a la lista con el tiempo.
 
-![4](https://github.com/maddsec/Airgeddon-Custom-Captive-Portal-Templates/assets/88505855/d4d87d59-c6c2-481e-b71f-7dd3c48e0da0)
+##################################################################################################################################################################################################################################
 
-![image](https://github.com/maddsec/Airgeddon-Custom-Captive-Portal-Templates/assets/88505855/a7eaa6dd-e9f8-4e3f-971b-9fcde7b0cdda)
+List \\ Lista:
+-claro
+-ETB
