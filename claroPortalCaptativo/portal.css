@@ -127,10 +127,11 @@ input{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 10px;
 }
 
 .btn-field input{
-	background: #000000;
+	background: #ed2e2e;
 	color: #fff;
 	height: 40px;
 	border-radius: 20px;
@@ -148,6 +149,7 @@ input{
 	-o-transition: background 1s;
 	text-align: center;
 	height: 45px;
+	margin: 5px;
 }
 
 .fill {
