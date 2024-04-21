@@ -13,7 +13,7 @@ It's recommended to previously have captured the handshake as Airgeddon only giv
 aireplay-ng --deauth 20 -a [MAC] wlan0mon
 If -c [client] is specified, only that mac's user device will be de-authenticated.
 
-#################################################################################################################################################################################################################################
+###################################################################################################################################
 
 ENG:  This is not mine, I actually edited the templates of this video: (https://youtu.be/M0TMHRuA2To) all credit goes to him.
       This repository is an edition of the HTML and CSS code to be similar to that of some Colombian Internet providers,
@@ -25,8 +25,10 @@ ESP:  Esto no es mío, Realmente edite las plantillas de este video: (https://yo
       cuando se esta intentando hacer un ataque de Evil Twin con portal captativo por medio de Airgeddon.
       Espero agregar más plantillas a la lista con el tiempo.
 
-##################################################################################################################################################################################################################################
+###################################################################################################################################
 
 List \\ Lista:
 -claro
 -ETB
+-Tigo
+-Movistar
